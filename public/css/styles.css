@@ -9,7 +9,7 @@ header{
     
 
 header h3{
-    margin-left: 35%;
+    margin-left: 29%;
     display: inline;
     font-size: 130%;
     
@@ -92,7 +92,7 @@ footer{
     
     font-size: 130%;
     color:#3a3838 ;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     width: auto;
     height: auto;
     text-align: center;
@@ -114,17 +114,27 @@ footer{
 }
 
 .formulario{
-
-
-    background-color: white;
+   display: block;
+    
+    background-color: rgb(250, 249, 249);
     width: auto;
     height: auto;
     text-align: center;
-    margin:auto;
+    width: 50%;
+    margin:0 auto;
     box-sizing: border-box;
     border: 15px solid #ebebeb;
     justify-content:center
 }
+
+.formulario h5{
+    font-size: 90%;
+}
+.formulario h6{
+    font-size: 90%;
+    color: rgb(19, 85, 190);
+}
+
 
 .botones{
 
@@ -135,7 +145,7 @@ footer{
 }
 
 .botones2{
-    margin-left: 48%;
+    margin-left: 45%;
     display: inline;
     text-align: right;
 
