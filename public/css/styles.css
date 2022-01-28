@@ -1,0 +1,268 @@
+
+
+
+header{
+    background-color: #EAC926;
+   
+    
+}
+    
+
+header h3{
+    margin-left: 35%;
+    display: inline;
+    font-size: 130%;
+    
+
+}
+main{
+    background-color: #ebebeb;
+    text-align: left;
+    color: #777474;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: white;
+  
+}
+
+
+.Copyright{
+    text-align: center;
+}
+
+.titulos_footer{
+    
+    text-align: center; 
+
+}
+
+.parrafos_footer{
+    display: flex;
+    width: 350px;
+    text-align: center;
+    margin:auto; 
+}
+
+.iconos{
+    text-align: center;
+    margin:auto;
+    color: blue;  
+    
+}
+.menu{
+    text-align: center;
+}
+
+.menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.contenido{
+    display: flex;   
+    margin:0 auto;
+    box-sizing: border-box ;
+
+
+}
+
+.tarjetas{
+
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 400px){
+    .tarjetas{
+        display: inline;
+    }
+}
+
+.tarjeta h2{
+    
+    font-size: 130%;
+    color:#3a3838 ;
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    box-sizing: border-box ;
+    
+}
+
+
+.tarjeta p{
+    color:#6e6c6c ;
+    
+}
+
+.tarjeta1 h2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.formulario{
+
+
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin:auto;
+    box-sizing: border-box;
+    border: 15px solid #ebebeb;
+    justify-content:center
+}
+
+.botones{
+
+    display: inline;
+    text-align: left;
+    
+
+}
+
+.botones2{
+    margin-left: 48%;
+    display: inline;
+    text-align: right;
+
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+}
+
+.descuento,
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.descripcion{
+    color: #000000;
+    
+}
+
+.descripcion{
+    
+    display: none;
+    margin-top: 20px;
+    
+}
+
+.informacion{
+    background-color: white;    
+    margin: 1px 0px;
+}
+ 
+main .articulos img{
+    width: 100%;
+}
+
+main .articulos i,
+.descuento{
+    color: #39b54a;
+}
+
+ .articulos i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+main .productos .articulos:hover i{
+    transform: rotate(-90deg)
+}
+
+
+.articulos .informacion{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 10px;
+}
+
+@media (min-width: 361px){
+    .productos .articulos:hover .descripcion{
+        display: block;
+    }
+
+    main .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    
+    }
+
+    main .productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    
+    
+    
+    main .productos .articulos{
+        width: 45%;
+    }
+
+   
+
+    .precio,
+    .descuento{
+        width: 50%;
+    }
+
+
+@media (min-width: 769px){
+    main .productos .articulos{
+        width: 22%;
+    }
+}
+
+
+@media (max-width: 400px){
+    .botones{
+        display: none;
+        width: 85%;
+    }
+
+    .botones2{
+        display: none;
+        width: 85%;
+    }
+
+}
+
