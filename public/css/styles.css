@@ -1,6 +1,4 @@
 
-
-
 header{
     background-color: #EAC926;
    
@@ -289,4 +287,18 @@ main .productos .articulos:hover i{
 
 
 }
+.registro{
 
+    display: block;
+    
+    background-color: rgb(250, 249, 249);
+    width: auto;
+    height: auto;
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+    box-sizing: border-box;
+    border: 15px solid #ebebeb;
+    justify-content:center
+
+}
