@@ -276,3 +276,17 @@ main .productos .articulos:hover i{
 
 }
 
+@media (max-width: 430px){
+    .articulos i{
+        position: absolute;
+        right: 120px;
+        top: 35px;
+        font-size: 13px;
+        padding: 5px;
+        width: 27px;
+        height: 27px;
+    }
+
+
+}
+
