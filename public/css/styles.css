@@ -276,9 +276,3 @@ main .productos .articulos:hover i{
 
 }
 
-@media (max-width: 400px){
-    .carousel-item{
-        
-        height:200px
-    }
-}
