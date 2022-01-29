@@ -16,19 +16,106 @@
 </header>
 <br>
 <body>
-    <form class="registro" action="/login " method="post"></form>
-    <p>
-        <label> Nombre:</label>
-        <input type="text" name="usuario">
-    </p>
-    <p>
-        <label>Email:</label>
-        <input type="Email" name="Email">
-    
-    </p>
+    <div class="registro">
 
-    <P>
-        <button type="submit">Enviar</button>
-    </P>
+        <h2>Ingresa tu datos</h2>
+        <form action="/registro"method="POST">
+            <br>
+            <div>
+                <h5>Nombre</h5> 
+                <input type="text"name="usuario"id="nombre">    
+
+            </div>
+            <br>
+            <div>
+                <h5>Apellidos</h5> 
+                <input type="password"name="clave">
+
+            </div>
+            <br>
+            <div>
+                <h5>Contraseña</h5> 
+                <input type="password"name="clave"> 
+
+            </div>
+            <br>
+            <div>
+                <h5>Telefono</h5> 
+                <input type="tel"name="telefono">
+
+            </div>
+            <br>
+            <div>
+                <h5>Email</h5> 
+                <input type="email"name="email">
+
+            </div>
+            <br>
+            <div>
+                <h5>Edad</h5> 
+                <input type="number"name="edad">
+
+            </div>
+            <br>
+            <div>
+                <h5>Fecha de nacimiento</h5>
+                <input type="date"name="fecha"/>
+
+            </div>
+            <br>
+            <div>
+                <h4>Agraga un documento que certifique que seas tu (PDF,DOC)</h4>
+                <input type="file"name="archivo"accept=".jpg"multiple/>
+
+            </div>
+            <br>
+            
+            <br>
+            <div>
+                <h4>Intereses</h4>
+                <div>
+                    <label for="nombre">Tecnologia</label>
+                    <input type="checkbox"name="combo"value="Primero"checked/>  
+                </div>
+                <div>
+                    <label for="nombre">Autos</label>
+                    <input type="checkbox"name="combo"value="Segundo"/>
+                </div>
+                <div>
+                    <label for="nombre">Ropa</label>
+                    <input type="checkbox"name="combo"value="Segundo"/>
+                </div>
+                <div>
+                    <label for="nombre">Hogar</label>
+                    <input type="checkbox"name="combo"value="Segundo"/>
+                </div>
+                <div>
+                    <label for="nombre">Deportes</label>
+                    <input type="checkbox"name="combo"value="Segundo"/>
+                </div>
+                
+
+            </div>
+            <br>
+
+
+            <div>
+                <h4>Aceptas las politicas de privaciodad</h4>
+                <div>
+                    <label for="nombre">Si</label>
+                    <input type="radio"name="pago"value="si"checked /> 
+                    
+                </div>
+                <label for="nombre">No</label>
+                <input type="radio"name="pago"value="no"/>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Regitrarse</button>
+             <a href="/home"><button type="button" class="btn btn-primary">volver <i class="fas fa-home"></i></button></a>
+            </form>
+            
+
+    </div>
+    
 </body>
 </html>
