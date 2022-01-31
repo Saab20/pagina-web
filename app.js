@@ -2,9 +2,9 @@ const express =require("express")
 const path= require("path")
 const app=express()
 
-app.get('/', (req,res)=>{
+/*app.get('/', (req,res)=>{
     res.send("ahora si entre")
-})
+})*/
 
 app.get('/home', (req,res)=>{
     res.sendFile((__dirname + '/views/home.html'))
