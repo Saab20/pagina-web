@@ -1,10 +1,18 @@
+*{
+    margin: 0 auto;
+       
+    box-sizing: border-box;
+    
+}
+
 
 header{
     background-color: #EAC926;
-   
+    margin: 0 auto;
+       
+    box-sizing: border-box;
     
 }
-    
 
 header h3{
     margin-left: 29%;
